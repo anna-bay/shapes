@@ -1,0 +1,78 @@
+.wrapper{
+	width: 100%;
+	margin: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+.wrapper div{
+	margin-bottom: 50px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: green;
+    border: 1px solid;
+   
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    border: 1px solid;
+
+}
+.rectangle {
+    width: 400px;
+    height: 200px;
+    background: blue;
+    border: 1px solid;
+   
+}
+
+.disc {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid yellow;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+
+}
+
+.trapezium {
+    height: 0;
+    width: 160px;
+    border-bottom: 160px solid lightgreen;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+.romb {
+    width: 170px;
+    height: 170px;
+    background: purple;
+    border: 1px solid;
+    transform: rotate(-45deg);
+
+}
+
+.oval{
+	width: 200px;
+    height: 100px;
+    background: orange;
+    border-radius: 100px/50px;
+    border: 1px solid;
+
+}
